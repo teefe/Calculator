@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222831;
+    gap: 20px;
+}
+.main-container{
+    box-sizing: border-box;
+    background-color: #fac650;
+    border: 1px green solid;
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Display-div{
+    border: 2px black solid;
+    width: 350px;
+    height: 200px;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+.Buttons-div{
+    margin: 20px;
+    height: 450px;
+    border-radius: 10px;
+}
+.upper-btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+.upper-btn{
+    border: 2px red solid;
+    color: red;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: large;
+}
+.lower-btn-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.lower-btn-container > button{
+    background-color: gainsboro;
+    border: 2px black solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    font-size: xx-large;
+}
+.addition:hover{
+   color: blue;
+   border-color: blue;
+}
+.multiply:hover{
+    color: blue;
+    border-color: blue;
+}
+.divide:hover{
+    color: blue;
+    border-color: blue; 
+}
+.modulus:hover{
+    color: blue;
+    border-color: blue; 
+}
+.equals:hover{
+    color: blue;
+    border-color: blue;
+}
+.minus:hover{
+    color: blue;
+    border-color: blue;
+}
+footer{
+    font-size: x-large;
+    color: gainsboro;
+}
