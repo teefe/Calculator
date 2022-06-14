@@ -1,3 +1,8 @@
+let option1 = [];
+let op1;
+let op2;
+let operator;
+let operator2;
 
 const one = document.querySelector('.one');
 const two = document.querySelector('.two');
@@ -18,12 +23,6 @@ const multiplyBtn = document.querySelector('.multiply');
 const clearBtn = document.querySelector('.upper-btn1');
 const delBtn = document.querySelector('.upper-btn');
 const display = document.querySelector('.Display-div');
-
-let option1 = [];
-let op1;
-let op2;
-let operator;
-let operator2;
 
 delBtn.addEventListener('click',()=>{
     option1.pop();
