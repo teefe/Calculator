@@ -92,6 +92,7 @@ equals.addEventListener('click',()=>{
     operator2 = equals.textContent; 
     optionsPopulation();
     display.textContent =  operate(operator,op1,op2);
+    reset();
 })
 
 point.addEventListener('click',()=>{
@@ -133,13 +134,17 @@ function operatorWork(opChoice){
     option1 = [];
 }
 function clear(){
+    reset();
+    display.textContent = '0';
+}
+
+function reset(){
     option1 = [];
     op1 = undefined;
     op2 = undefined;
     operator = undefined;
-    display.textContent = '0';
-}
 
+}
 function optionsPopulation(){
     if (op1 >= 0) {
         op2 = parseFloat(option1.join('').toString());
