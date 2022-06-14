@@ -17,13 +17,17 @@ body{
     align-items: center;
 }
 .Display-div{
+    display: flex;
+    justify-content: end;
+    align-items:flex-end;
     border: 2px black solid;
     width: 350px;
     height: 200px;
     margin: 20px;
     margin-bottom: 0px;
-    border-radius: 10px;
+    border-radius: 2px;
     background-color: gainsboro;
+    font-size: xx-large;
 }
 .Buttons-div{
     margin: 20px;
@@ -34,6 +38,16 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.upper-btn1{
+    border: 2px red solid;
+    color: red;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: large;
+}
+
 .upper-btn{
     border: 2px red solid;
     color: red;
@@ -43,6 +57,7 @@ body{
     border-radius: 10px;
     font-size: large;
 }
+
 .lower-btn-container{
     display: flex;
     justify-content: space-around;
